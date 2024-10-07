@@ -5,6 +5,6 @@ echo "Carpetas creadas"
 
 
 
-sudo mkdir -p /Examenes-UTN/{alumno1/parcial_{1..3},alumno2/parcial_{1..3},alumno3/parcial_{1..3},profesores}
+sudo mkdir -p /Examenes-UTN/{alumno_1/parcial_{1..3},alumno_2/parcial_{1..3},alumno_3/parcial_{1..3},profesores}
 
 
