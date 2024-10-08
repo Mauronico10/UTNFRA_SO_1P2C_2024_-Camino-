@@ -1,12 +1,8 @@
 #!/bin/bash
 
-DISCO="/dev/sdd"
+DISCO="/dev/sdc"
 
-
-echo "Particiones_Creadas"
-
-
-sudo fdisk $DISCO <<EOF
+sudo fdisk $DISCO << EOF
 n
 p
 
@@ -50,6 +46,7 @@ n
 
 w
 
+
 EOF
 
 
@@ -86,6 +83,5 @@ echo "${DISCO}8 /Examenes-UTN/alumno3/parcial_2 ext4 defaults 0 0" | sudo tee -a
 echo "${DISCO}9 /Examenes-UTN/alumno3/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
 echo "${DISCO}10 /Examenes-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
-sudo mount -a
 
 

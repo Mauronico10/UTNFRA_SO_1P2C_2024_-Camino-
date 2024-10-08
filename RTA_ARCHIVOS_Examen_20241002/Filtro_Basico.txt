@@ -1,1 +1,2 @@
-MemTotal:        4005376 kB
+MemTotal:        4005888 kB
+Oracle Corporation
